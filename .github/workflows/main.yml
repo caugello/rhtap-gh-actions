@@ -4,4 +4,4 @@ jobs:
   show-logs:
     runs-on: ubuntu-latest
     steps:
-      - run: curl https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-sbom-scans/refs/heads/main/live-demo
+      - run: curl -s https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-sbom-scans/refs/heads/main/live-demo
